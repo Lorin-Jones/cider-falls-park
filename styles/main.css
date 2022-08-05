@@ -1,0 +1,93 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+  margin: 20px;
+}
+.header {
+    border: 2px solid black;
+    width: 100%;
+    position: relative;
+  }
+  
+  .wrapper {
+    width: 100%;
+    position: relative;
+    margin: 30px 0;
+  }
+  
+  .logo {
+    display: flex;
+  }
+  
+  .logo img {
+    width: 120px;
+  }
+  
+  .header-text {
+    text-align: center;
+    position: absolute;
+    font-size: 65px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+body {
+   display: flex;
+   flex-direction: column;
+}
+.main {
+    display: flex;
+
+}
+.container {
+    display: flex;
+    max-width: 70%;
+    
+}
+.aside {
+    display: flex;
+    max-width: 30%;
+    flex-basis: 24%;
+    margin: 30px 2rem;
+    border: 2px dotted goldenrod;
+    text-align: left;
+}
+
+.details {
+    flex-basis: 24%;
+    margin: 0.5em;
+    border: 2px dotted goldenrod;
+    padding: 1em;
+}
+.detail--column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: flex-start;
+    max-height: 1000;
+}
+ul#services__list li{
+  display: flex;
+  display: inline;
+  margin: 4px;
+  justify-content: center;
+}
+.services_header {
+  text-align: center;
+}
+
+ 
+
+    
+
